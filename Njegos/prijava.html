@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Njegos</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_1">
+            <a href="/" id="navbar_logo">ЊЕГОШ</a>
+            <div class="navbar_togglemenu" id ="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/index.html" class="navbar_links">Почетна</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/citati.html" class="navbar_links">Цитати</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/prodavnica.html" class="navbar_links">Продавница</a>
+                </li>
+                <li class="navbar_button">
+                    <a href="/prijava.html" class="button">Пријави се</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main" style="overflow:hidden">
+        <div class="main_1">
+            <div class="prijava">
+                <h1>Пријава</h1>
+                <form>
+                    <div class="input_group">
+                        <div class="input_field">
+                            <input type="text" id="imepolje" placeholder="Име">
+                        </div>
+                        <div class="input_field">
+                            <input type="text" id="prezimepolje" placeholder="Презиме">
+                        </div>
+                        <div class="input_field">
+                            <input type="email" id="emailpolje" placeholder="емаил">
+                        </div>
+                        <div class="input_field">
+                            <input type="password" id="sifrapolje" placeholder="Шифра">
+                        </div>
+                        <p>Заборавили лозинку? <a href="https://www.youtube.com/watch?v=C1d8sRMI8_w">Кликните овде</a></p>
+                    </div>
+                    <div class="button_field">
+                        <button id="prijavadugme">Пријави се</button>
+                    </div>
+                </form>
+            </div>
+                <div class="main_slika1">
+                <img src="/images/slika1.jpg" alt="" id="slika1">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer_1">
+        <div class="footer_links">
+            <div class="footer_link_wrapper">
+                <div class="footer_link_items">
+                    <h2>О нама</h2>
+                    <a href="/">Инстаграм</a>
+                    <a href="/">Фејсбук</a>
+                    <a href="/">Твитер</a>
+                    <a href="/">Тикток</a>
+                </div>
+                
+            </div>
+            <div class="footer_link_wrapper">
+                <div class="footer_link_items">
+                    <h2>О Његошу</h2>
+                    <a href="/">Википедија</a>
+                    <a href="/">Извор 1</a>
+                    <a href="/">Извор 2</a>
+                    <a href="/">Извор 3</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src ="skripte/app2.js"></script>
+
+</body>
+</html>
